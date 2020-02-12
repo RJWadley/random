@@ -1,4 +1,3 @@
-@echo off
 cd %appdata% 
 cd .minecraft
 curl https://raw.githubusercontent.com/RJWadley/mmc-launch/master/JREPL.BAT --output jrepl.bat
