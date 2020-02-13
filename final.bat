@@ -12,7 +12,4 @@ if %test%==4 (SET DispName=Robbie)
 
 echo %DispName%
 
-rem Ask user of batch file for the number of users.
-set /P "DispName=Enter Display Name (%DispName%): "
-
 jrepl.bat "Scarycrumb45" "%DispName%" /f launcher_profiles.json /o - && cd "C:\Program Files (x86)\Minecraft Launcher\" && start MinecraftLauncher.exe
